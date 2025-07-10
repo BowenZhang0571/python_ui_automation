@@ -1,0 +1,579 @@
+2025-04-12 22:21:28.415 | INFO     | page_object.homepage_v2:click_login_link:33 - =======开始点击首页的登录链接==========
+2025-04-12 22:21:28.415 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-12 22:21:28.416 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-12 22:21:28.492 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-12 22:21:28.492 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-12 22:21:28.493 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-12 22:21:28.618 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-12 22:21:28.619 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-12 22:21:28.686 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('class name', 'login-button')
+2025-04-12 22:21:28.686 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('class name', 'login-button')可以被点击
+2025-04-12 22:21:29.751 | INFO     | page_object.homepage_v2:weltext_is_display_method:52 - =======开始判断欢迎用户信息是否显示==========
+2025-04-12 22:21:29.751 | INFO     | common.basepage_v2:element_display:91 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-12 22:21:29.751 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-12 22:21:30.538 | INFO     | common.handle_assert:assert_condition:27 - ===========开始做断言：条件是否成立============
+2025-04-12 22:21:30.538 | INFO     | common.handle_assert:assert_condition:30 - 断言成功！条件【True】成立的！
+2025-04-12 22:21:30.539 | INFO     | page_object.homepage_v2:get_username_method:57 - =======开始获取登录后的用户名信息==========
+2025-04-12 22:21:30.539 | INFO     | common.basepage_v2:get_text:79 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-12 22:21:30.539 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-12 22:21:30.567 | INFO     | common.handle_assert:assert_equals:17 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-12 22:21:30.567 | INFO     | common.handle_assert:assert_equals:20 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-12 22:21:37.014 | INFO     | page_object.homepage_v2:click_login_link:33 - =======开始点击首页的登录链接==========
+2025-04-12 22:21:37.015 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-12 22:21:37.015 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-12 22:21:37.089 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-12 22:21:37.089 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-12 22:21:37.090 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-12 22:21:37.179 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-12 22:21:37.180 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-12 22:21:37.256 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('class name', 'login-button')
+2025-04-12 22:21:37.258 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('class name', 'login-button')可以被点击
+2025-04-12 22:21:38.331 | INFO     | page_object.homepage_v2:click_usercenter_method:47 - =======开始点击首页的个人中心的链接==========
+2025-04-12 22:21:38.331 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//span[text()="个人中心"]')
+2025-04-12 22:21:38.331 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//span[text()="个人中心"]')可以被点击
+2025-04-12 22:21:38.754 | INFO     | page_object.user_center_page:modify_portrait_method:31 - =======开始上传用户头像的操作==========
+2025-04-12 22:21:38.754 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//div[@class="portrait-box"]')
+2025-04-12 22:21:38.754 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//div[@class="portrait-box"]')可以被点击
+2025-04-12 22:21:39.325 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('class name', 'avatar')
+2025-04-12 22:21:39.326 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('class name', 'avatar')可以被点击
+2025-04-12 22:21:40.908 | INFO     | common.basepage_v2:upload_file:59 - 上传文件：D:\Pycharm_Project\python73_class\day26_UI自动化的断言和日志报告的封装\data\小柠檬.png
+2025-04-12 22:21:43.158 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('link text', '保存账户信息')
+2025-04-12 22:21:43.158 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('link text', '保存账户信息')可以被点击
+2025-04-12 22:21:49.114 | INFO     | page_object.homepage_v2:click_login_link:33 - =======开始点击首页的登录链接==========
+2025-04-12 22:21:49.114 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-12 22:21:49.114 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-12 22:21:49.277 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-12 22:21:49.277 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-12 22:21:49.277 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-12 22:21:49.382 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-12 22:21:49.382 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-12 22:21:49.454 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('class name', 'login-button')
+2025-04-12 22:21:49.455 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('class name', 'login-button')可以被点击
+2025-04-12 22:21:50.523 | INFO     | page_object.homepage_v2:click_usercenter_method:47 - =======开始点击首页的个人中心的链接==========
+2025-04-12 22:21:50.524 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//span[text()="个人中心"]')
+2025-04-12 22:21:50.524 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//span[text()="个人中心"]')可以被点击
+2025-04-12 22:21:51.211 | INFO     | page_object.user_center_page:modify_portrait_method:31 - =======开始上传用户头像的操作==========
+2025-04-12 22:21:51.212 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//div[@class="portrait-box"]')
+2025-04-12 22:21:51.212 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//div[@class="portrait-box"]')可以被点击
+2025-04-12 22:21:51.955 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('class name', 'avatar')
+2025-04-12 22:21:51.956 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('class name', 'avatar')可以被点击
+2025-04-12 22:21:53.547 | INFO     | common.basepage_v2:upload_file:59 - 上传文件：D:\Pycharm_Project\python73_class\day26_UI自动化的断言和日志报告的封装\data\小柠檬.png
+2025-04-12 22:21:55.798 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('link text', '保存账户信息')
+2025-04-12 22:21:55.798 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('link text', '保存账户信息')可以被点击
+2025-04-12 22:21:55.864 | INFO     | page_object.user_center_page:modify_success_tips_method:44 - =======开始检查上传头像成功提示信息的操作==========
+2025-04-12 22:21:55.864 | INFO     | common.basepage_v2:element_display:91 - 这个元素是否可见：('class name', 'el-message__content')
+2025-04-12 22:21:55.865 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('class name', 'el-message__content')可以可见
+2025-04-12 22:21:56.397 | INFO     | common.handle_assert:assert_condition:27 - ===========开始做断言：条件是否成立============
+2025-04-12 22:21:56.397 | INFO     | common.handle_assert:assert_condition:30 - 断言成功！条件【True】成立的！
+2025-04-12 22:22:03.198 | INFO     | page_object.homepage_v2:click_login_link:33 - =======开始点击首页的登录链接==========
+2025-04-12 22:22:03.199 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-12 22:22:03.199 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-12 22:22:03.273 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-12 22:22:03.274 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-12 22:22:03.274 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-12 22:22:03.472 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-12 22:22:03.472 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-12 22:22:03.549 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('class name', 'login-button')
+2025-04-12 22:22:03.549 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('class name', 'login-button')可以被点击
+2025-04-12 22:22:04.616 | INFO     | page_object.homepage_v2:search_prod_method:39 - =======开始搜索商品操作==========
+2025-04-12 22:22:04.616 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//div[@class="search-input-box"]/input')，输入的内容是：圆筒包
+2025-04-12 22:22:04.617 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//div[@class="search-input-box"]/input')可以可见
+2025-04-12 22:22:05.637 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//div[@class="search-input-box"]/following-sibling::input')
+2025-04-12 22:22:05.637 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//div[@class="search-input-box"]/following-sibling::input')可以被点击
+2025-04-12 22:22:12.105 | INFO     | page_object.homepage_v2:click_login_link:33 - =======开始点击首页的登录链接==========
+2025-04-12 22:22:12.105 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-12 22:22:12.106 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-12 22:22:12.182 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-12 22:22:12.182 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-12 22:22:12.182 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-12 22:22:12.264 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-12 22:22:12.264 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-12 22:22:12.327 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('class name', 'login-button')
+2025-04-12 22:22:12.327 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('class name', 'login-button')可以被点击
+2025-04-12 22:22:13.385 | INFO     | page_object.homepage_v2:search_prod_method:39 - =======开始搜索商品操作==========
+2025-04-12 22:22:13.385 | INFO     | common.basepage_v2:input_text:73 - 对这个元素输入文本：('xpath', '//div[@class="search-input-box"]/input')，输入的内容是：圆筒包
+2025-04-12 22:22:13.385 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//div[@class="search-input-box"]/input')可以可见
+2025-04-12 22:22:14.057 | INFO     | common.basepage_v2:click_element:68 - 点击这个元素：('xpath', '//div[@class="search-input-box"]/following-sibling::input')
+2025-04-12 22:22:14.058 | INFO     | common.basepage_v2:wait_element_clickable:28 - 等待('xpath', '//div[@class="search-input-box"]/following-sibling::input')可以被点击
+2025-04-12 22:22:14.123 | INFO     | page_object.prod_list_page:prod_display_method:27 - =======开始检查商品列表和页面商品是否存在==========
+2025-04-12 22:22:14.123 | INFO     | common.basepage_v2:element_display:91 - 这个元素是否可见：('xpath', '//div[contains(text(),"圆筒包")]')
+2025-04-12 22:22:14.124 | INFO     | common.basepage_v2:wait_element_visible:37 - 等待('xpath', '//div[contains(text(),"圆筒包")]')可以可见
+2025-04-12 22:22:14.152 | INFO     | common.handle_assert:assert_condition:27 - ===========开始做断言：条件是否成立============
+2025-04-12 22:22:14.152 | INFO     | common.handle_assert:assert_condition:30 - 断言成功！条件【True】成立的！
+2025-04-15 21:58:34.974 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 21:58:34.974 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 21:58:34.974 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 21:58:35.055 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 21:58:35.055 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 21:58:35.055 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 21:58:35.144 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 21:58:35.144 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 21:58:35.212 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 21:58:35.212 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 21:58:43.495 | ERROR    | common.basepage_v2:wait_element_clickable:33 - 等待('class name', 'login-buttonwww')超时
+2025-04-15 21:58:51.097 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 21:58:51.097 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 21:58:51.097 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 21:58:51.173 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 21:58:51.173 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 21:58:51.173 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 21:58:51.269 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 21:58:51.269 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 21:58:51.345 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 21:58:51.345 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 21:58:59.588 | ERROR    | common.basepage_v2:wait_element_clickable:33 - 等待('class name', 'login-buttonwww')超时
+2025-04-15 21:59:06.091 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 21:59:06.092 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 21:59:06.092 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 21:59:06.171 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 21:59:06.171 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 21:59:06.172 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 21:59:06.265 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 21:59:06.265 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 21:59:06.342 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 21:59:06.342 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 21:59:14.600 | ERROR    | common.basepage_v2:wait_element_clickable:33 - 等待('class name', 'login-buttonwww')超时
+2025-04-15 21:59:21.129 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 21:59:21.130 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 21:59:21.130 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 21:59:21.207 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 21:59:21.208 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 21:59:21.208 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 21:59:21.311 | INFO     | common.basepage_v2:input_text:80 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 21:59:21.312 | INFO     | common.basepage_v2:wait_element_visible:40 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 21:59:21.394 | INFO     | common.basepage_v2:click_element:75 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 21:59:21.394 | INFO     | common.basepage_v2:wait_element_clickable:29 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 21:59:29.629 | ERROR    | common.basepage_v2:wait_element_clickable:33 - 等待('class name', 'login-buttonwww')超时
+2025-04-15 22:07:13.444 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 22:07:13.444 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 22:07:13.444 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 22:07:13.519 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 22:07:13.519 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 22:07:13.519 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 22:07:13.614 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 22:07:13.614 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 22:07:13.699 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 22:07:13.699 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 22:07:21.942 | ERROR    | common.basepage_v2:wait_element_clickable:35 - 等待('class name', 'login-buttonwww')超时
+2025-04-15 22:15:54.737 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 22:15:54.737 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 22:15:54.737 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 22:15:54.823 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 22:15:54.823 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 22:15:54.824 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 22:15:54.915 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 22:15:54.916 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 22:15:54.995 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 22:15:54.995 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 22:16:03.275 | ERROR    | common.basepage_v2:wait_element_clickable:35 - 等待('class name', 'login-buttonwww')超时
+2025-04-15 22:16:15.308 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 22:16:15.308 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 22:16:15.308 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 22:16:15.409 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 22:16:15.409 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 22:16:15.410 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 22:16:15.578 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 22:16:15.579 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 22:16:15.672 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 22:16:15.673 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 22:16:23.929 | ERROR    | common.basepage_v2:wait_element_clickable:35 - 等待('class name', 'login-buttonwww')超时
+2025-04-15 22:16:35.987 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-15 22:16:35.987 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-15 22:16:35.988 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-15 22:16:36.103 | INFO     | page_object.loginpage_v2:login_action:27 - =======开始做登录操作==========
+2025-04-15 22:16:36.103 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-15 22:16:36.103 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-15 22:16:36.170 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-15 22:16:36.170 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-15 22:16:36.232 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-buttonwww')
+2025-04-15 22:16:36.232 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-buttonwww')可以被点击
+2025-04-15 22:16:44.476 | ERROR    | common.basepage_v2:wait_element_clickable:35 - 等待('class name', 'login-buttonwww')超时
+2025-04-17 21:10:55.819 | INFO     | conftest:get_env:58 - --env的参数的值是test
+2025-04-17 21:10:57.631 | INFO     | conftest:open_browser_url:28 - -----初始化浏览器driver----
+2025-04-17 21:10:57.631 | INFO     | conftest:open_browser_url:30 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:11:01.729 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:11:01.729 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:11:01.730 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:11:01.825 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:11:01.825 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:11:01.826 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:11:01.924 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:11:01.924 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:11:02.001 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:11:02.001 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:11:03.074 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:11:03.075 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:11:03.076 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:11:04.575 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:11:04.575 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:11:04.575 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:11:04.575 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:11:04.575 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:11:04.611 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-17 21:11:04.611 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-17 21:11:06.764 | INFO     | conftest:open_browser_url:35 - -----关闭浏览器-----
+2025-04-17 21:11:23.876 | INFO     | conftest:get_env:58 - --env的参数的值是dev
+2025-04-17 21:11:25.658 | INFO     | conftest:open_browser_url:28 - -----初始化浏览器driver----
+2025-04-17 21:11:25.659 | INFO     | conftest:open_browser_url:30 - 打开网址：http://dev.mall.lemonban.com:3344/
+2025-04-17 21:12:03.317 | INFO     | conftest:get_env:58 - --env的参数的值是pre
+2025-04-17 21:12:05.288 | INFO     | conftest:open_browser_url:28 - -----初始化浏览器driver----
+2025-04-17 21:12:05.289 | INFO     | conftest:open_browser_url:30 - 打开网址：http://pre.mall.lemonban.com:3344/
+2025-04-17 21:17:35.500 | INFO     | conftest:get_env:58 - --env的参数的值是pre
+2025-04-17 21:17:37.267 | INFO     | conftest:open_browser_url:28 - -----初始化浏览器driver----
+2025-04-17 21:17:37.267 | INFO     | conftest:open_browser_url:30 - 打开网址：http://pre.mall.lemonban.com:3344/
+2025-04-17 21:30:27.900 | INFO     | conftest:get_env:69 - --env的参数的值是pre,--brow的参数的值firefox
+2025-04-17 21:30:34.393 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:30:34.394 | INFO     | conftest:open_browser_url:35 - 打开网址：http://pre.mall.lemonban.com:3344/
+2025-04-17 21:30:58.626 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值firefox
+2025-04-17 21:31:04.958 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:31:04.959 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:31:09.113 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:31:09.113 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:31:09.113 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:31:10.783 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:31:22.886 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:31:24.755 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:31:24.755 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:31:28.573 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:31:28.574 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:31:28.574 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:31:31.022 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:41:47.670 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:41:49.425 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:41:49.427 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:41:51.849 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:41:51.850 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:41:51.850 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:41:54.353 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:43:39.398 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:43:41.126 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:43:41.127 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:43:43.176 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:43:43.177 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:43:43.177 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:43:43.261 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:43:43.261 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:43:43.262 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:43:43.358 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:43:43.359 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:43:43.438 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:43:43.438 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:43:44.501 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:43:44.502 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:43:44.502 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:43:45.119 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:43:45.120 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:43:45.120 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:43:45.121 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:43:45.121 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:43:47.588 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:44:04.259 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:44:06.197 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:44:06.198 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:44:08.646 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:44:08.646 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:44:08.647 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:44:08.724 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:44:08.725 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:44:08.725 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:44:08.816 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:44:08.816 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:44:08.901 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:44:08.901 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:44:09.976 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:44:09.978 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:44:09.980 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:44:10.805 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:44:10.805 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:44:10.806 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:44:10.806 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:44:10.806 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:44:10.836 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-17 21:44:10.837 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-17 21:44:12.992 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:46:13.413 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:46:15.250 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:46:15.251 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:46:17.298 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:46:17.299 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:46:17.299 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:46:17.383 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:46:17.384 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:46:17.384 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:46:17.520 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:46:17.521 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:46:17.586 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:46:17.587 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:46:18.648 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:46:18.648 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:46:18.648 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:46:19.209 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:46:19.209 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:46:19.210 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:46:19.210 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:46:19.210 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:46:19.243 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-17 21:46:19.244 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-17 21:46:21.401 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:48:37.997 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:48:39.876 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:48:39.878 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:48:42.778 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:48:42.778 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:48:42.779 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:48:42.883 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:48:42.883 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:48:42.885 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:48:42.972 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:48:42.973 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:48:43.038 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:48:43.038 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:48:44.101 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:48:44.102 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:48:44.103 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:48:44.740 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:48:44.740 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:48:44.741 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:48:44.741 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:48:44.741 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:48:44.772 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-17 21:48:44.773 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-17 21:48:46.906 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:52:36.299 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值firefox
+2025-04-17 21:52:42.925 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:52:42.926 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:52:45.389 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:52:45.389 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:52:45.390 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:52:45.663 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:52:45.663 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:52:45.664 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:52:45.728 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:52:45.729 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:52:45.759 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:52:45.760 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:52:47.005 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:52:47.005 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:52:47.006 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:52:47.025 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:52:47.026 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:52:47.027 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:52:47.027 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:52:47.028 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:52:47.045 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-17 21:52:47.046 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-17 21:52:48.135 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:56:43.193 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:56:45.058 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:56:45.059 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:56:48.506 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:56:48.507 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:56:48.507 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:56:48.592 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:56:48.592 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:56:48.593 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:56:48.671 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:56:48.672 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:56:48.738 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:56:48.738 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:56:49.834 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:56:49.835 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:56:49.835 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:56:51.852 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:56:51.853 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:56:51.853 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:56:51.854 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:56:51.855 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:56:51.884 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-17 21:56:51.885 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-17 21:56:54.064 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-17 21:57:07.855 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-17 21:57:09.626 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-17 21:57:09.628 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-17 21:57:11.801 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-17 21:57:11.801 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-17 21:57:11.802 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-17 21:57:11.895 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-17 21:57:11.896 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-17 21:57:11.896 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-17 21:57:11.997 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-17 21:57:11.998 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-17 21:57:12.078 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-17 21:57:12.078 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-17 21:57:13.129 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-17 21:57:13.130 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-17 21:57:13.131 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-17 21:57:13.675 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-17 21:57:13.675 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-17 21:57:13.676 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-17 21:57:13.676 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-17 21:57:13.676 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-17 21:57:13.705 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-17 21:57:13.706 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-17 21:57:15.885 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 21:58:15.639 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-19 21:58:18.029 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-19 21:58:18.029 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-19 21:58:21.372 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-19 21:58:21.372 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-19 21:58:21.373 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-19 21:58:21.467 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-19 21:58:21.468 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-19 21:58:21.471 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-19 21:58:21.583 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-19 21:58:21.584 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-19 21:58:21.718 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-19 21:58:21.719 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-19 21:58:22.848 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-19 21:58:22.850 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-19 21:58:22.851 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-19 21:58:24.360 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-19 21:58:24.363 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-19 21:58:24.373 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-19 21:58:24.373 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-19 21:58:24.374 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-19 21:58:24.431 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-19 21:58:24.431 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-19 21:58:26.807 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 22:05:26.512 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-19 22:05:28.542 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-19 22:05:28.543 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-19 22:05:31.151 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-19 22:05:31.152 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-19 22:05:31.152 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-19 22:05:31.242 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-19 22:05:31.242 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-19 22:05:31.243 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-19 22:05:31.347 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-19 22:05:31.348 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-19 22:05:31.423 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-19 22:05:31.424 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-19 22:05:32.491 | INFO     | page_object.homepage_v2:search_prod_method:43 - =======开始搜索商品操作==========
+2025-04-19 22:05:32.492 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//div[@class="search-input-box"]/input')，输入的内容是：圆筒包
+2025-04-19 22:05:32.492 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//div[@class="search-input-box"]/input')可以可见
+2025-04-19 22:05:33.299 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//div[@class="search-input-box"]/following-sibling::input')
+2025-04-19 22:05:33.300 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//div[@class="search-input-box"]/following-sibling::input')可以被点击
+2025-04-19 22:05:34.385 | INFO     | page_object.prod_list_page:click_prod_method:33 - =======开始点击商品列表页面商品==========
+2025-04-19 22:05:34.386 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//div[contains(text(),"圆筒包")]')
+2025-04-19 22:05:34.386 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//div[contains(text(),"圆筒包")]')可以被点击
+2025-04-19 22:05:34.443 | INFO     | page_object.prod_detail_page:click_add_cart_method:30 - =======开始点击商品详情页添加商品到购物车==========
+2025-04-19 22:05:34.444 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'add-cart')
+2025-04-19 22:05:34.445 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'add-cart')可以被点击
+2025-04-19 22:05:35.014 | INFO     | page_object.prod_detail_page:get_prod_name_method:35 - =========获取购物车商品名字的按钮操作================
+2025-04-19 22:05:35.015 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//div[@class="name-box"]/div[@class="name"]')
+2025-04-19 22:05:35.015 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//div[@class="name-box"]/div[@class="name"]')可以可见
+2025-04-19 22:05:35.052 | INFO     | page_object.prod_detail_page:get_add_cart_tips_method:40 - =========获取添加商品到购物车成功提示信息================
+2025-04-19 22:05:35.053 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('class name', 'el-message__content')
+2025-04-19 22:05:35.053 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('class name', 'el-message__content')可以可见
+2025-04-19 22:05:35.594 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-19 22:05:35.595 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【成功加入购物车】，实际结果是：【成功加入购物车】
+2025-04-19 22:05:35.595 | INFO     | page_object.homepage_v2:click_cart_method:56 - =======开始点击首页的购物车的链接==========
+2025-04-19 22:05:35.595 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//span[@data-route="cart"]')
+2025-04-19 22:05:35.595 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//span[@data-route="cart"]')可以被点击
+2025-04-19 22:05:35.648 | INFO     | page_object.cart_page:prod_dispalyed_in_cart:57 - =========商品显示在购物车里检查================
+2025-04-19 22:05:35.649 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//a[contains(text(),"真皮圆筒包")]')
+2025-04-19 22:05:35.649 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[contains(text(),"真皮圆筒包")]')可以可见
+2025-04-19 22:05:36.192 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-19 22:05:36.192 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-19 22:05:38.374 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 22:05:38.396 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-19 22:05:41.401 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-19 22:05:41.410 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-19 22:05:44.231 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-19 22:05:44.232 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-19 22:05:44.232 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-19 22:05:44.308 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-19 22:05:44.308 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_py
+2025-04-19 22:05:44.309 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-19 22:05:44.394 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：12345678
+2025-04-19 22:05:44.395 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-19 22:05:44.461 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-19 22:05:44.461 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-19 22:05:45.519 | INFO     | page_object.homepage_v2:weltext_is_display_method:66 - =======开始判断欢迎用户信息是否显示==========
+2025-04-19 22:05:45.519 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//span[text()="欢迎来到柠檬班"]')
+2025-04-19 22:05:45.519 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//span[text()="欢迎来到柠檬班"]')可以可见
+2025-04-19 22:05:46.340 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-19 22:05:46.340 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-19 22:05:46.341 | INFO     | page_object.homepage_v2:get_username_method:71 - =======开始获取登录后的用户名信息==========
+2025-04-19 22:05:46.341 | INFO     | common.basepage_v2:get_text:97 - 获取这个元素的文本：('xpath', '//a[@class="link-name"]')
+2025-04-19 22:05:46.341 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//a[@class="link-name"]')可以可见
+2025-04-19 22:05:46.376 | INFO     | common.handle_assert:assert_equals:23 - ===========开始做断言： 预期结果是否等于执行结果============
+2025-04-19 22:05:46.377 | INFO     | common.handle_assert:assert_equals:26 - 断言成功！预期结果是：【lemon_py】，实际结果是：【lemon_py】
+2025-04-19 22:05:48.523 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 22:05:48.527 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-19 22:05:50.447 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-19 22:05:50.448 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-19 22:05:52.764 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-19 22:05:52.765 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-19 22:05:52.766 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-19 22:05:52.839 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-19 22:05:52.840 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：
+2025-04-19 22:05:52.840 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-19 22:05:52.907 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：lemon123456
+2025-04-19 22:05:52.908 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-19 22:05:52.979 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-19 22:05:52.979 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-19 22:05:54.039 | INFO     | page_object.loginpage_v2:is_login_err_display_method:57 - =======开始判断登录错误的提示信息存在操作==========
+2025-04-19 22:05:54.039 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//div[text()="账号为4~16位字母、数字或下划线"]')
+2025-04-19 22:05:54.040 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//div[text()="账号为4~16位字母、数字或下划线"]')可以可见
+2025-04-19 22:05:54.069 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-19 22:05:54.070 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-19 22:05:56.202 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 22:05:56.208 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-19 22:05:58.011 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-19 22:05:58.012 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-19 22:06:01.907 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-19 22:06:01.908 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-19 22:06:01.909 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-19 22:06:01.988 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-19 22:06:01.989 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemonlemonlemon11
+2025-04-19 22:06:01.990 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-19 22:06:02.107 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：lemon123456
+2025-04-19 22:06:02.108 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-19 22:06:02.193 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-19 22:06:02.194 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-19 22:06:03.273 | INFO     | page_object.loginpage_v2:is_login_err_display_method:57 - =======开始判断登录错误的提示信息存在操作==========
+2025-04-19 22:06:03.274 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//div[text()="账号为4~16位字母、数字或下划线"]')
+2025-04-19 22:06:03.274 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//div[text()="账号为4~16位字母、数字或下划线"]')可以可见
+2025-04-19 22:06:03.308 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-19 22:06:03.308 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-19 22:06:05.449 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 22:06:05.465 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-19 22:06:07.295 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-19 22:06:07.295 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-19 22:06:09.597 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-19 22:06:09.597 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-19 22:06:09.598 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-19 22:06:09.680 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-19 22:06:09.680 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lem
+2025-04-19 22:06:09.681 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-19 22:06:09.756 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：lemon123456
+2025-04-19 22:06:09.756 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-19 22:06:09.830 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-19 22:06:09.830 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-19 22:06:10.884 | INFO     | page_object.loginpage_v2:is_login_err_display_method:57 - =======开始判断登录错误的提示信息存在操作==========
+2025-04-19 22:06:10.884 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//div[text()="账号为4~16位字母、数字或下划线"]')
+2025-04-19 22:06:10.885 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//div[text()="账号为4~16位字母、数字或下划线"]')可以可见
+2025-04-19 22:06:10.913 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-19 22:06:10.913 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-19 22:06:13.051 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 22:06:13.068 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
+2025-04-19 22:06:14.948 | INFO     | conftest:open_browser_url:33 - -----初始化浏览器driver----
+2025-04-19 22:06:14.949 | INFO     | conftest:open_browser_url:35 - 打开网址：http://mall.lemonban.com:3344/
+2025-04-19 22:06:17.413 | INFO     | page_object.homepage_v2:click_login_link:37 - =======开始点击首页的登录链接==========
+2025-04-19 22:06:17.413 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('xpath', '//a[text()="登录"]')
+2025-04-19 22:06:17.414 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('xpath', '//a[text()="登录"]')可以被点击
+2025-04-19 22:06:17.505 | INFO     | page_object.loginpage_v2:login_action:35 - =======开始做登录操作==========
+2025-04-19 22:06:17.505 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入手机号/用户名"]')，输入的内容是：lemon_auto
+2025-04-19 22:06:17.506 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入手机号/用户名"]')可以可见
+2025-04-19 22:06:17.675 | INFO     | common.basepage_v2:input_text:91 - 对这个元素输入文本：('xpath', '//input[@placeholder="请输入密码"]')，输入的内容是：
+2025-04-19 22:06:17.676 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//input[@placeholder="请输入密码"]')可以可见
+2025-04-19 22:06:17.740 | INFO     | common.basepage_v2:click_element:86 - 点击这个元素：('class name', 'login-button')
+2025-04-19 22:06:17.740 | INFO     | common.basepage_v2:wait_element_clickable:31 - 等待('class name', 'login-button')可以被点击
+2025-04-19 22:06:18.834 | INFO     | page_object.loginpage_v2:is_login_err_display_method:57 - =======开始判断登录错误的提示信息存在操作==========
+2025-04-19 22:06:18.834 | INFO     | common.basepage_v2:element_display:109 - 这个元素是否可见：('xpath', '//div[text()="请输入密码"]')
+2025-04-19 22:06:18.835 | INFO     | common.basepage_v2:wait_element_visible:45 - 等待('xpath', '//div[text()="请输入密码"]')可以可见
+2025-04-19 22:06:18.865 | INFO     | common.handle_assert:assert_condition:38 - ===========开始做断言：条件是否成立============
+2025-04-19 22:06:18.866 | INFO     | common.handle_assert:assert_condition:41 - 断言成功！条件【True】成立的！
+2025-04-19 22:06:21.045 | INFO     | conftest:open_browser_url:40 - -----关闭浏览器-----
+2025-04-19 22:06:21.065 | INFO     | conftest:get_env:69 - --env的参数的值是test,--brow的参数的值chrome
